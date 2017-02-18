@@ -1,0 +1,19 @@
+{
+  "name": "vue-blog",
+  "version": "1.0.0",
+  "description": "this is jiaobingqian's blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiaojinqian/jiaojinqian.github.io.git"
+  },
+  "author": "jiaobingqian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiaojinqian/jiaojinqian.github.io/issues"
+  },
+  "homepage": "https://github.com/jiaojinqian/jiaojinqian.github.io#readme"
+}
