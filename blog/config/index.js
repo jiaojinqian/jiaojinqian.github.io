@@ -4,8 +4,11 @@ var path = require('path')
 module.exports = {
   build: {
     env: require('./prod.env'),
-    index: path.resolve(__dirname, '../dist/index.html'),
-    assetsRoot: path.resolve(__dirname, '../dist'),
+    // index: path.resolve(__dirname, '../dist/index.html'),
+    // assetsRoot: path.resolve(__dirname, '../dist'),
+    index: path.resolve(__dirname, '../index.html'),
+    assetsRoot: path.resolve(__dirname, '../'),
+
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     productionSourceMap: true,
@@ -23,8 +26,9 @@ module.exports = {
   },
   dev: {
     env: require('./dev.env'),
-    port: 8080,
+    port: 20000,
     autoOpenBrowser: true,
+    index: path.resolve(__dirname, '../default.html'),
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {},
